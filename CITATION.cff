@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: "Cite as below."
+authors:
+- family-names: "Worthington"
+  given-names: "Simon"
+  orcid: "https://orcid.org/0000-0000-0000-0000"
+- family-names: "Bot"
+  given-names: "Hew"
+  orcid: "https://orcid.org/0000-0000-0000-0000"
+title: "Open Publishing"
+version: 1.0
+doi:  
+date-released:  
+url: "https://github.com/TIBHannover/open-publishing"
