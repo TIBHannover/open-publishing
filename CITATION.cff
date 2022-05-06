@@ -3,12 +3,12 @@ message: "Cite as below."
 authors:
 - family-names: "Worthington"
   given-names: "Simon"
-  orcid: "https://orcid.org/0000-0000-0000-0000"
+  orcid: "https://orcid.org/0000-0002-8579-9717"
 - family-names: "Bot"
   given-names: "Hew"
   orcid: "https://orcid.org/0000-0000-0000-0000"
 title: "Open Publishing"
 version: 1.0
-doi:  
-date-released:  
+doi: 10.20389/a15q-ac53  
+date-released: 2022-05-06  
 url: "https://github.com/TIBHannover/open-publishing"
