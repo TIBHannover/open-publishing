@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ncx xmlns:ncx="http://www.daisy.org/z3986/2005/ncx/" xmlns="http://www.daisy.org/z3986/2005/ncx/" version="2005-1" xml:lang="en">
+  <head>
+    <meta name="dtb:fidus" content="104" />
+  </head>
+  <docTitle>
+    <text>Open Publishing</text>
+  </docTitle>
+  <navMap>
+
+    <!-- 2.01 NCX: playOrder is optional -->
+    <navPoint id="t1">
+      <navLabel><text>Titelseite</text></navLabel>
+      <content src="titlepage.xhtml#title" />
+    </navPoint>
+    <navPoint id="t_1_0-1">
+      <navLabel><text>Open Publishing</text></navLabel>
+      <content src="document-1.xhtml#_1_0" />
+    </navPoint>
+    <navPoint id="t2">
+      <navLabel><text>Copyright</text></navLabel>
+      <content src="copyright.xhtml#copyright" />
+    </navPoint>
+  </navMap>
+</ncx>
