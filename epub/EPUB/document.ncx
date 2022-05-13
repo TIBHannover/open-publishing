@@ -17,6 +17,42 @@
       <navLabel><text>Open Publishing</text></navLabel>
       <content src="document-1.xhtml#_1_0" />
     </navPoint>
+    <navPoint id="t_2_0-2">
+      <navLabel><text>Wikidata for OpenGLAM</text></navLabel>
+      <content src="document-2.xhtml#_2_0" />
+      <navPoint id="tH8963524-2">
+        <navLabel><text>Part 1</text></navLabel>
+        <content src="document-2.xhtml#H8963524" />
+      </navPoint>
+      <navPoint id="tH3124040-2">
+        <navLabel><text>Part 2</text></navLabel>
+        <content src="document-2.xhtml#H3124040" />
+      </navPoint>
+      <navPoint id="tH3484795-2">
+        <navLabel><text>Part 3</text></navLabel>
+        <content src="document-2.xhtml#H3484795" />
+      </navPoint>
+      <navPoint id="tH4450718-2">
+        <navLabel><text>Part 4</text></navLabel>
+        <content src="document-2.xhtml#H4450718" />
+      </navPoint>
+      <navPoint id="tH9436562-2">
+        <navLabel><text>Etc</text></navLabel>
+        <content src="document-2.xhtml#H9436562" />
+      </navPoint>
+    </navPoint>
+    <navPoint id="t_3_0-3">
+      <navLabel><text>Open Publishing the Programme</text></navLabel>
+      <content src="document-3.xhtml#_3_0" />
+      <navPoint id="tH3586326-3">
+        <navLabel><text>URLs</text></navLabel>
+        <content src="document-3.xhtml#H3586326" />
+      </navPoint>
+      <navPoint id="tH5429092-3">
+        <navLabel><text>Programme</text></navLabel>
+        <content src="document-3.xhtml#H5429092" />
+      </navPoint>
+    </navPoint>
     <navPoint id="t2">
       <navLabel><text>Copyright</text></navLabel>
       <content src="copyright.xhtml#copyright" />
