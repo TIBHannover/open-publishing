@@ -13,8 +13,6 @@
   <manifest>
     <item id="titlepage" href="titlepage.xhtml" media-type="application/xhtml+xml" />
     <item id="t1" href="document-1.xhtml" media-type="application/xhtml+xml" />
-    <item id="t2" href="document-2.xhtml" media-type="application/xhtml+xml" />
-    <item id="t3" href="document-3.xhtml" media-type="application/xhtml+xml" />
     <item id="nav" href="document-nav.xhtml" properties="nav" media-type="application/xhtml+xml" />
     <item id="copyright" href="copyright.xhtml" media-type="application/xhtml+xml" />
     <item id="font0" href="css/media/NotoSerif-Italic.ttf" media-type="font/sfnt" />
@@ -35,8 +33,6 @@
   <spine toc="ncx">
     <itemref idref="titlepage" linear="yes" />
     <itemref idref="t1" linear="yes" />
-    <itemref idref="t2" linear="yes" />
-    <itemref idref="t3" linear="yes" />
     <itemref idref="copyright" linear="yes" />
     <itemref idref="nav" linear="no" />
   </spine>
