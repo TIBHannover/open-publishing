@@ -14,31 +14,23 @@
       <content src="titlepage.xhtml#title" />
     </navPoint>
     <navPoint id="t_1_0-1">
-      <navLabel><text>Open Publishing</text></navLabel>
+      <navLabel><text>Über das Buch</text></navLabel>
       <content src="document-1.xhtml#_1_0" />
     </navPoint>
     <navPoint id="t_2_0-2">
-      <navLabel><text>OpenGLAM</text></navLabel>
+      <navLabel><text>Wikidata - Enabler von Citizen Science?</text></navLabel>
       <content src="document-2.xhtml#_2_0" />
     </navPoint>
     <navPoint id="t_3_0-3">
-      <navLabel><text>Open Publishing the Programme</text></navLabel>
+      <navLabel><text>Wikidata und die OpenGLAM Community</text></navLabel>
       <content src="document-3.xhtml#_3_0" />
-      <navPoint id="tH3586326-3">
-        <navLabel><text>URLs</text></navLabel>
-        <content src="document-3.xhtml#H3586326" />
-      </navPoint>
-      <navPoint id="tH5429092-3">
-        <navLabel><text>Programme</text></navLabel>
-        <content src="document-3.xhtml#H5429092" />
-      </navPoint>
     </navPoint>
     <navPoint id="t_4_0-4">
-      <navLabel><text>Citizen Science</text></navLabel>
+      <navLabel><text>Wikidata - erste Schritte</text></navLabel>
       <content src="document-4.xhtml#_4_0" />
     </navPoint>
     <navPoint id="t_5_0-5">
-      <navLabel><text>Using Wikidata</text></navLabel>
+      <navLabel><text>Wikidata - weitere Werkzeuge</text></navLabel>
       <content src="document-5.xhtml#_5_0" />
     </navPoint>
     <navPoint id="t2">
