@@ -14,7 +14,7 @@
       <content src="titlepage.xhtml#title" />
     </navPoint>
     <navPoint id="t_1_0-1">
-      <navLabel><text>Über das Buch</text></navLabel>
+      <navLabel><text>Über das Buch &quot;Kulturerbe kontextualisieren mit Wikidata&quot;</text></navLabel>
       <content src="document-1.xhtml#_1_0" />
     </navPoint>
     <navPoint id="t_2_0-2">
