@@ -7,6 +7,9 @@ authors:
 - family-names: "Blümel"
   given-names: "Ina"
   orcid: "https://orcid.org/0000-0002-3075-7640"
+- family-names: "Janus"
+  given-names: "Leandra"
+  orcid: "https://orcid.org/0000-0003-4679-9375"
 title: "Kulturerbe kontextualisieren mit Wikidata"
 version: 1.0
 doi: 10.20389/a15q-ac53  
