@@ -10,6 +10,9 @@ authors:
 - family-names: "Janus"
   given-names: "Leandra"
   orcid: "https://orcid.org/0000-0003-4679-9375"
+  - family-names: "Menzel"
+  given-names: "Marie-Antoinette"
+  orcid: " https://orcid.org/0000-0002-9310-5244"
 title: "Kulturerbe kontextualisieren mit Wikidata"
 version: 1.0
 doi: 10.20389/a15q-ac53  
