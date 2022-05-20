@@ -1,6 +1,11 @@
 \documentclass[11pt]{book}
 
 \usepackage{hyperref}
+                
+\usepackage[backend=biber,hyperref=false,citestyle=authoryear,bibstyle=authoryear]{biblatex}
+                
+\bibliography{bibliography}
+            
 \usepackage{docmute}
 \title{Open Publishing}
 \author{}
@@ -21,4 +26,6 @@
         \input{chapter-5}
         
 
+
+\printbibliography[title={Bibliography}]
 \end{document}
