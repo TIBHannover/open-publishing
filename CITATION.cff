@@ -13,6 +13,9 @@ authors:
   - family-names: "Menzel"
   given-names: "Marie-Antoinette"
   orcid: " https://orcid.org/0000-0002-9310-5244"
+- family-names: "Witten"
+  given-names: "Marna"
+  orcid: "https://orcid.org/0000-0001-5874-1440"
 title: "Kulturerbe kontextualisieren mit Wikidata"
 version: 1.0
 doi: 10.20389/a15q-ac53  
