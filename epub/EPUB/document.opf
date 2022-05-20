@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<package xmlns="http://www.idpf.org/2007/opf" version="3.0" unique-identifier="fidus" xml:lang="en-GB" prefix="cc: http://creativecommons.org/ns#">
+<package xmlns="http://www.idpf.org/2007/opf" version="3.0" unique-identifier="fidus" xml:lang="de-DE" prefix="cc: http://creativecommons.org/ns#">
   <metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
     <dc:identifier id="fidus">104</dc:identifier>
     <dc:title>Open Publishing</dc:title>
     <dc:creator>
       Simon Worthington
     </dc:creator>
-    <dc:language>en-GB</dc:language>
-    <meta property="dcterms:modified">2022-05-13T10:27:09Z</meta>
-    <dc:date>2022-05-13</dc:date>
+    <dc:language>de-DE</dc:language>
+    <meta property="dcterms:modified">2022-05-20T09:40:41Z</meta>
+    <dc:date>2022-05-20</dc:date>
   </metadata>
   <manifest>
     <item id="titlepage" href="titlepage.xhtml" media-type="application/xhtml+xml" />
