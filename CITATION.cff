@@ -7,9 +7,9 @@ authors:
 - family-names: "Blümel"
   given-names: "Ina"
   orcid: "https://orcid.org/0000-0002-3075-7640"
-- family-names: "OCK"
-  given-names: "Project"
-  orcid: "https://orcid.org/0000"
+- family-names: "Pedersen"
+  given-names: "Esben Christian"
+  orcid: "https://orcid.org/0000-0001-5815-2961"
 title: "Kulturerbe kontextualisieren mit Wikidata"
 version: 1.0
 doi: 10.20389/a15q-ac53  
