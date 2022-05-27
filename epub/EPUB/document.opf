@@ -7,8 +7,9 @@
       Simon Worthington
     </dc:creator>
     <dc:language>de-DE</dc:language>
-    <meta property="dcterms:modified">2022-05-20T09:40:41Z</meta>
-    <dc:date>2022-05-20</dc:date>
+    <meta property="dcterms:modified">2022-05-27T12:54:09Z</meta>
+    <dc:date>2022-05-27</dc:date>
+    <dc:rights>CC BY 4.0</dc:rights>
   </metadata>
   <manifest>
     <item id="titlepage" href="titlepage.xhtml" media-type="application/xhtml+xml" />
