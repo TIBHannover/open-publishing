@@ -1,6 +1,12 @@
 cff-version: 1.2.0
-message: "Cite as below."
+message: "Cite as:"
 authors:
+- family-names: "Witten"
+  given-names: "Marna"
+  orcid: "https://orcid.org/0000-0001-5874-1440"
+- family-names: "Pedersen"
+  given-names: "Esben Christian"
+  orcid: "https://orcid.org/0000-0001-5815-2961"
 - family-names: "Worthington"
   given-names: "Simon"
   orcid: "https://orcid.org/0000-0002-8579-9717"
