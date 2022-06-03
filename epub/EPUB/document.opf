@@ -4,11 +4,11 @@
     <dc:identifier id="fidus">104</dc:identifier>
     <dc:title>Open Publishing</dc:title>
     <dc:creator>
-      Ina Blümel
+      Simon Worthington
     </dc:creator>
     <dc:language>de-DE</dc:language>
-    <meta property="dcterms:modified">2022-05-20T13:24:45Z</meta>
-    <dc:date>2022-05-20</dc:date>
+    <meta property="dcterms:modified">2022-06-03T11:55:50Z</meta>
+    <dc:date>2022-06-03</dc:date>
     <dc:rights>CC BY 4.0</dc:rights>
   </metadata>
   <manifest>
