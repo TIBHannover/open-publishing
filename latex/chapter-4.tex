@@ -1,5 +1,27 @@
 \documentclass{article}
 
+\usepackage{caption}
+                
+\usepackage[backend=biber,hyperref=false,citestyle=authoryear,bibstyle=authoryear]{biblatex}
+                
+\bibliography{bibliography}
+            
+\usepackage{graphicx}
+                
+\usepackage{calc}
+                
+\newlength{\imgwidth}
+                
+\newcommand\scaledgraphics[2]{%
+                
+\settowidth{\imgwidth}{\includegraphics{#1}}%
+                
+\setlength{\imgwidth}{\minof{\imgwidth}{#2\textwidth}}%
+                
+\includegraphics[width=\imgwidth,height=\textheight,keepaspectratio]{#1}%
+                
+}
+            
 \begin{document}
 
 \title{Wikidata - erste Schritte}
@@ -12,4 +34,20 @@
 
 [erste Schritte, einfache Sachen, Arbeiten mit]
 
+\begin{figure}
+\scaledgraphics{c974b28d-908a-42e2-9445-5efb50e2817b.png}{1}
+\caption*{"lebendes" Handbuch Wikidata}\label{F44920591}
+\end{figure}
+
+
+
+
+
+Im Handbuch Wikidata \autocite{solohub_handbuch_2021} geben Studierende eine Einführung in ...
+
+
+Die WikidataTours (...) sind vor allem
+
+
+\printbibliography[title={Literaturverzeichnis}]
 \end{document}

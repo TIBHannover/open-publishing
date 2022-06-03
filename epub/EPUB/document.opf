@@ -4,10 +4,10 @@
     <dc:identifier id="fidus">104</dc:identifier>
     <dc:title>Open Publishing</dc:title>
     <dc:creator>
-      Simon Worthington
+      ADA Pipeline
     </dc:creator>
     <dc:language>de-DE</dc:language>
-    <meta property="dcterms:modified">2022-06-03T11:55:50Z</meta>
+    <meta property="dcterms:modified">2022-06-03T13:09:54Z</meta>
     <dc:date>2022-06-03</dc:date>
     <dc:rights>CC BY 4.0</dc:rights>
   </metadata>
@@ -22,6 +22,7 @@
     <item id="copyright" href="copyright.xhtml" media-type="application/xhtml+xml" />
     <item id="img0" href="images/ea614bab-3f4c-4c33-9fda-586c650b58c5.png" media-type="image/png" />
     <item id="img1" href="images/ce15208f-6cbe-4d4f-a6eb-ffd2e7f8fb24.png" media-type="image/png" />
+    <item id="img2" href="images/c974b28d-908a-42e2-9445-5efb50e2817b.png" media-type="image/png" />
     <item id="font0" href="css/media/NotoSerif-Italic.ttf" media-type="font/sfnt" />
     <item id="font1" href="css/media/NotoSerif-BoldItalic.ttf" media-type="font/sfnt" />
     <item id="font2" href="css/media/NotoSerif-Regular.ttf" media-type="font/sfnt" />
