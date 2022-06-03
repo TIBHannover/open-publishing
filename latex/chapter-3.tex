@@ -1,15 +1,65 @@
 \documentclass{article}
 
+\usepackage{hyperref}
+\usepackage{caption}
+\usepackage{wrapfig}
                 
 \usepackage[backend=biber,hyperref=false,citestyle=authoryear,bibstyle=authoryear]{biblatex}
                 
 \bibliography{bibliography}
+            
+\usepackage{graphicx}
+                
+\usepackage{calc}
+                
+\newlength{\imgwidth}
+                
+\newcommand\scaledgraphics[2]{%
+                
+\settowidth{\imgwidth}{\includegraphics{#1}}%
+                
+\setlength{\imgwidth}{\minof{\imgwidth}{#2\textwidth}}%
+                
+\includegraphics[width=\imgwidth,height=\textheight,keepaspectratio]{#1}%
+                
+}
             
 \begin{document}
 
 \title{Wikidata und die OpenGLAM Community}
 
 \maketitle
+
+
+
+
+\begin{wrapfigure}{l}{0.5\textwidth}
+\scaledgraphics{ea614bab-3f4c-4c33-9fda-586c650b58c5.png}{0.5}
+\caption*{Foto 1}\label{F76287561}
+\end{wrapfigure}
+
+\begin{wrapfigure}{r}{0.5\textwidth}
+\scaledgraphics{ce15208f-6cbe-4d4f-a6eb-ffd2e7f8fb24.png}{0.5}
+\caption*{Foto 2}\label{F81154591}
+\end{wrapfigure}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 Open Glam bezeichnet ein Netzwerk aus Galerien, Bibliotheken, Archiven und Museen und setzt sich für die gemeinsame Nutzung kulturellen Erbes ein. Das Wort GLAM setzt sich dabei uns den englischen Wörtern „Galleries, Libraries, Archives, Museums“ zusammen. \autocite{FidusWriter}
@@ -24,7 +74,10 @@ Die OpenGLAM Working Group innerhalb von Opendata.ch, dem schweizer Chapter der 
 Auch die Open Knowledge Foundation hatte bereits 2017 mit Einführungskursen gestartet https://okfn.de/blog/2017/05/wikidata-f\%C3\%BCr-openglam/. Mittlerweile ...
 
 
-Wichtigste Gruppe innerhalb der schon aktiven Wikidata-Community mit dem Schwerpunkt GLAM ist hier aktiv https://www.wikidata.org/wiki/Wikidata:WikiProject\_Cultural\_heritage
+Innerhalb der bereits aktiven Wikidata-Community hat sich die Gruppe unter https://www.wikidata.org/wiki/Wikidata:WikiProject\_Cultural\_heritage zum Ziel gesetzt, "Wikidata als zentralen Hub für Datenintegration, Datenanreicherung und Datenmanagement im Bereich des Kulturerbes zu etablieren". Wikidata. „Wikidata:WikiProject Cultural Heritage – Wikidata“. Zugegriffen 2. Juni 2022. \href{https://www.wikidata.org/wiki/Wikidata:WikiProject_Cultural_heritage}{https://www.wikidata.org/wiki/Wikidata:WikiProject\_Cultural\_heritage}.
+
+
+Mehr (auch für die anderen Kapitel): auf der o.g. Wikiprojekts-Seite unter Tutorials, Guidelines, Blog Posts 
 
 
 \printbibliography[title={Literaturverzeichnis}]

@@ -1,10 +1,28 @@
 \documentclass[11pt]{book}
 
 \usepackage{hyperref}
+\usepackage{caption}
+\usepackage{wrapfig}
                 
 \usepackage[backend=biber,hyperref=false,citestyle=authoryear,bibstyle=authoryear]{biblatex}
                 
 \bibliography{bibliography}
+            
+\usepackage{graphicx}
+                
+\usepackage{calc}
+                
+\newlength{\imgwidth}
+                
+\newcommand\scaledgraphics[2]{%
+                
+\settowidth{\imgwidth}{\includegraphics{#1}}%
+                
+\setlength{\imgwidth}{\minof{\imgwidth}{#2\textwidth}}%
+                
+\includegraphics[width=\imgwidth,height=\textheight,keepaspectratio]{#1}%
+                
+}
             
 \usepackage{docmute}
 \title{Open Publishing}
