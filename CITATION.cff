@@ -28,6 +28,9 @@ authors:
 - family-names: "Sidik"
   given-names: "Karin"
   orcid: "https://orcid.org/0000-0002-8356-7218"
+- family-names: "Alhomsi"
+  given-names: "Abdul Rahman"
+  orcid: "https://orcid.org/0000-0002-9486-3477"
 title: "Kulturerbe kontextualisieren mit Wikidata"
 version: 1.0
 doi: 10.20389/a15q-ac53  
