@@ -25,6 +25,9 @@ authors:
 - family-names: "Alnasouh"
   given-names: "Mahmoud"
   orcid: "https://orcid.org/0000-0002-3429-2190"
+- family-names: "Sidik"
+  given-names: "Karin"
+  orcid: "https://orcid.org/0000-0002-8356-7218"
 title: "Kulturerbe kontextualisieren mit Wikidata"
 version: 1.0
 doi: 10.20389/a15q-ac53  
