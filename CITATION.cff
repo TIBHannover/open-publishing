@@ -19,6 +19,9 @@ authors:
 - family-names: "Worthington"
   given-names: "Simon"
   orcid: "https://orcid.org/0000-0002-8579-9717"
+- family-names: "Slutskyi"
+  given-names: "Illia"
+  orcid: "https://orcid.org/0000-0001-8649-0853"
 title: "Kulturerbe kontextualisieren mit Wikidata"
 version: 1.0
 doi: 10.20389/a15q-ac53  
