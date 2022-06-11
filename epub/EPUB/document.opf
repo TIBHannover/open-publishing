@@ -4,11 +4,11 @@
     <dc:identifier id="fidus">104</dc:identifier>
     <dc:title>Open Publishing</dc:title>
     <dc:creator>
-      ADA Pipeline
+      Ina Blümel
     </dc:creator>
     <dc:language>de-DE</dc:language>
-    <meta property="dcterms:modified">2022-06-03T13:09:54Z</meta>
-    <dc:date>2022-06-03</dc:date>
+    <meta property="dcterms:modified">2022-05-20T13:24:45Z</meta>
+    <dc:date>2022-05-20</dc:date>
     <dc:rights>CC BY 4.0</dc:rights>
   </metadata>
   <manifest>
@@ -20,9 +20,14 @@
     <item id="t5" href="document-5.xhtml" media-type="application/xhtml+xml" />
     <item id="nav" href="document-nav.xhtml" properties="nav" media-type="application/xhtml+xml" />
     <item id="copyright" href="copyright.xhtml" media-type="application/xhtml+xml" />
-    <item id="img0" href="images/ea614bab-3f4c-4c33-9fda-586c650b58c5.png" media-type="image/png" />
-    <item id="img1" href="images/ce15208f-6cbe-4d4f-a6eb-ffd2e7f8fb24.png" media-type="image/png" />
-    <item id="img2" href="images/c974b28d-908a-42e2-9445-5efb50e2817b.png" media-type="image/png" />
+    <item id="img0" href="images/229df610-16c7-48d4-b502-ee9bc3b58968.png" media-type="image/png" />
+    <item id="img1" href="images/9506af52-8c01-453c-9edd-64e23ba4870a.png" media-type="image/png" />
+    <item id="img2" href="images/5145f690-0f75-45bf-8ed8-6957d63c6a36.jpg" media-type="image/jpeg" />
+    <item id="img3" href="images/ce15208f-6cbe-4d4f-a6eb-ffd2e7f8fb24.png" media-type="image/png" />
+    <item id="img4" href="images/7b6890a5-883b-4d11-9a51-d9548403ca3f.jpg" media-type="image/jpeg" />
+    <item id="img5" href="images/c974b28d-908a-42e2-9445-5efb50e2817b.png" media-type="image/png" />
+    <item id="img6" href="images/2cea247d-8f76-4b1b-849c-7d7a9ad677ae.png" media-type="image/png" />
+    <item id="img7" href="images/5c3fefe0-3802-4032-a442-66cfe33e8be3.png" media-type="image/png" />
     <item id="font0" href="css/media/NotoSerif-Italic.ttf" media-type="font/sfnt" />
     <item id="font1" href="css/media/NotoSerif-BoldItalic.ttf" media-type="font/sfnt" />
     <item id="font2" href="css/media/NotoSerif-Regular.ttf" media-type="font/sfnt" />

@@ -1,9 +1,28 @@
 \documentclass{article}
 
+\usepackage{hyperref}
+\usepackage{caption}
+\usepackage{wrapfig}
                 
 \usepackage[backend=biber,hyperref=false,citestyle=authoryear,bibstyle=authoryear]{biblatex}
                 
 \bibliography{bibliography}
+            
+\usepackage{graphicx}
+                
+\usepackage{calc}
+                
+\newlength{\imgwidth}
+                
+\newcommand\scaledgraphics[2]{%
+                
+\settowidth{\imgwidth}{\includegraphics{#1}}%
+                
+\setlength{\imgwidth}{\minof{\imgwidth}{#2\textwidth}}%
+                
+\includegraphics[width=\imgwidth,height=\textheight,keepaspectratio]{#1}%
+                
+}
             
 \begin{document}
 
@@ -15,16 +34,116 @@
 
 
 
-Bürgerwissenschaften. [...] Bürgerwissenschaften im Kontext Kulturerbe [...] \autocite{ridge_collective_2021} geben einen aktuellen Leitfaden zur Umsetzung digital unterstützter Partizipationsprojekte für Einrichtungen des kulturellen Erbes. (Es werden zudem Projekte und Plattformen vorgestellt, z.B. https://www.zooniverse.org/, die weltweit größte Plattform für die Beteiligung von Bürgern bei Forschungsprojekten.) (aktuell: https://inos-project.eu/2022/05/19/cultural-heritage-threats-and-the-role-of-citizen-engagement-inside-and-outside-universities/)
+\subsection{Was ist Wikidata?}\label{H170397}
 
 
-Bekanntestes Beispiel Wikipedia: Bürger tragen zu wiss. Themen bei. [...] Funktionsweise der Wikimedia Community [...]. [mögliche Inhalte: Wikiversum und das Verständnis digitaler Allmende die von allen beschrieben werden kann // offen, leicht beitragen, … // was sind das für Leute die in ihrer Freizeit hier mitmachen? // wie sehen Events wie Editathons aus? // .. // Wikidata projects, wie organisiert sich die Community selbst?]
-
-
-Wikidata als Hub für strukturiertes Wissen. Aktivstes WM Project aktuell. [...] Die Wikidata Interfaces ermöglichen es, dass jedermann mehrsprachige strukturierte Informationen zu seinen jeweiligen Interessengebieten beitragen kann, genauso wie schon vorher das Beitragen von Informationen als Fließtext in der jeweiligen Sprache in unstrukturierter Form bei Wikipedia möglich war und ist. Die jeweiligen Communities organisieren sich in WD in sogenannten WikiProjects. [...] Funktioniert [gut/schlecht/...] Wo sind die Hürden? [...]
+\begin{quote}
 
 
 
+"Wikidata ist eine freie, gemeinsame, mehrsprachige und sekundäre Datenbank zur Sammlung strukturierter Daten zur Unterstützung von Wikipedia, Wikimedia Commons, der anderen Wikis der Wikimedia-Bewegung und jedem auf der Welt." \autocite{Wikidata}
+
+
+\end{quote}
+
+
+Das bedeutet, dass veröffentlichte Inhalte ohne Einschränkungen genutzt und weiterverwendet werden dürfen. Dies gilt sowohl für nicht kommerzielle als auch für kommerzielle Zwecke.
+
+
+Wikidata entsteht gemeinsam, teils durch automatische Bots, teils durch Wikidata-Nutzer, die in verschiedensten Sprachen Inhalte hinzufügen und verwalten. Hierbei entsteht dann entsprechend die bereits genannte, sekundäre Datenbank mit strukturierten Daten zur vielfältigen Weiterverarbeitung. Die Sammlung besteht aus unterschiedlichen Statements, Eigenschaften und Werten, die dem Leser zusammengesetzt Informationen vermitteln. 
+
+\begin{figure}
+\scaledgraphics{229df610-16c7-48d4-b502-ee9bc3b58968.png}{0.75}
+\caption*{Abbildung "Dieses Diagramm eines \textbf{Wikidata Items} zeigt die wichtigsten Begriffe bei Wikidata." von Wikidata unter der Lizenz \href{https://creativecommons.org/publicdomain/zero/1.0/deed.de}{CC0}}\label{F79312931}
+% CC0: https://creativecommons.org/publicdomain/zero/1.0/
+\end{figure}
+
+
+
+
+
+\subsection{Citizen Science | Bürgerwissenschaften}\label{H3895833}
+
+
+
+Bürgerwissenschaft (Citizen Science) ist eine Form der Wissenschaft, bei der Projekte von nicht professionellen bzw. Amateurwissenschaftlern durchgeführt werden. Die freiwilligen Citizen Scientists arbeiten häufig mit oder unter Anleitung von Wissenschaftlern oder wissenschaftlichen Institutionen. Mithilfe der Amateurwissenschaftler können Forschende Ziele erreichen, die mit herkömmlichen wissenschaftlichen Methoden zu teuer oder zu zeitaufwendig wären.
+
+
+Bürgerwissenschaften sind eng mit dem Konzept des „Open Science“ (Offener Wissenschaft) verknüpft. Ziel von Open Science ist es die Wissenschaft einem größeren, allgemeinen Publikum zugänglich zu machen. \autocite{MunkeMartin2019}
+
+
+Bekannte Citizen Science-Projekte sind unter anderem:
+
+- Wikipedia
+
+- Wikidata
+
+- Vogelzählung "Stunde der Gartenvögel" des NABU
+
+- GEWISS (BürGEr schaffen WISSen), uvm.
+
+
+\subsection{WikiShootMe | Beispiel eines Citizen Science Projekts}\label{H8329586}
+
+
+
+Ein angewandtes Beispiel von Citizen Science ist die Webanwendung WikiShootMe.
+
+
+WikiShootMe ist ein Tool, mit dem Wikidata-Datenobjekte, Wikipedia-Artikel und Bilder auf Commons mit Koordinaten auf einer gemeinsamen Karte angezeigt werden.
+
+\begin{wrapfigure}{l}{0.5\textwidth}
+\scaledgraphics{9506af52-8c01-453c-9edd-64e23ba4870a.png}{0.5}
+\caption*{Bild "WikiShootMe Bildschirmaufnahme" von WikiShootMe unter der Lizenz \href{https://creativecommons.org/licenses/by-sa/3.0/deed.de}{CC BY-SA 3.0}}\label{F29691221}
+% CC BY-SA 3.0: https://creativecommons.org/licenses/by-sa/3.0/deed.de
+\end{wrapfigure}
+
+
+WikiShootMe bildet demnach eine Karte ab, auf der Objekte verortet sind. Standardmäßig wird das Programm versuchen die Objekte den verschiedenen Koordinaten entsprechend auszurichten, sofern der gewählte Browser die benötigten Rechte hat. Es gibt insgesamt vier verschiedene Objekttypen, die sich in ihrer Herkunft unterscheiden und jeweils durch bestimmte Kreise zu erkennen sind:
+
+
+- große grüne Kreise stehen für Wikidata-Datenobjekte mit einem Bild
+
+- große rote Kreise stehen für Wikidata-Datenobjekte ohne Bild
+
+- kleine blaue Kreise stehen für Bilder auf Commons
+
+- kleine gelbe Kreise stehen für Wikipedia-Artikel in deiner eingestellten Sprache
+
+
+Jedes der genannten Symbole kann einzeln an- oder ausgeschaltet werden. Zudem ist es möglich die angezeigten Objekte anzuklicken, um sich in einem neuen Fenster weitere Informationen anzeigen zu lassen. Alle neuen Fenster enthalten den Namen des Objektes, die Koordinaten des Objektes und ein Bild. \autocite{Wikimedia}
+
+
+So kann jeder Nutzer mühelos zu dem Projekt beitragen und die Datenobjekte ohne Bild oder Informationen werden gemeinschaftlich entsprechend ergänzt.
+
+
+\subsection{Die Gartenlaube/Datenlaube | Citizen Science mit offenen Kulturdaten}\label{H316072}
+
+
+
+Die Datenlaube ist ein ehrenamtlich betriebenes Citizen Science Projekt bei dem die Zeitschrift \emph{Gartenlaube} offen erschlossen wird. Die \emph{Gartenlaube} ist eine Zeitschrift aus den Jahren 1853 bis 1899 und umfasst ca. 19.000 Artikel. Mittels freiwilliger "Citizens" und Wikidata werden Texte aus Wikisource transkribiert und so entsteht ein umfassender Katalog. Die textuellen Inhalte bilden somit die Basis für einen große Sammlung bibliographischer Metadaten. Diese Daten sind offen, maschinenlesbar und strukturiert und neue Datensätze aus der \emph{Gartenlaube} werden als ebensolche angelegt. \autocite{BemmeJens2021}
+
+
+Somit bietet die \emph{Gartenlaube }eine solide Grundlage zur Forschung auf Basis offener Daten. Ehrenamtliche wie Hauptamtliche beschäftigen sich mit den Themen der Gartenlaubenartikel und vergeben Schlagworte in den Wikidata-Items ebendieser Artikel und reichern somit die vorhandenen Metadaten an und so entstehen unter anderem Diagramme wie das \href{https://query.wikidata.org/embed.html#%23defaultView%3ABubbleChart%0ASELECT%20%20%3FSchlagwort%20%3FSchlagwortLabel%20(COUNT(%3FDie_Gartenlaube)%20AS%20%3Fanzahl)%20WHERE%20%7B%0A%20%20SERVICE%20wikibase%3Alabel%20%7B%20bd%3AserviceParam%20wikibase%3Alanguage%20%22%5BAUTO_LANGUAGE%5D%2Cen%22.%20%7D%0A%20%20%3FDie_Gartenlaube%20wdt%3AP1433%20wd%3AQ655617.%0A%20%20%3FDie_Gartenlaube%20wdt%3AP921%20%3FSchlagwort.%20%0A%0A%7D%0AGROUP%20BY%20%3FSchlagwort%20%3FSchlagwortLabel%0AORDER%20BY%20DESC(%3Fanzahl)}{\#Baumscheibendiagramm}. Dieses Diagramm bildet die Schlagworte ihrer Häufigkeit entsprechend ab.
+
+
+Die Datenlaube ist somit ein großes Citizen Science Projekt welches sich sowohl an Forschende, BürgerwissenschaftlerInnen, Bildungsinsititutionen und Bibliotheken richtet. Dabei sind die erschlossenen Texte und die Illustrationen sowohl für die Arbeit und den Umgang mit offenen bibliographischen Daten von Bedeutung aber auch ein Wissenszuwachs sowie der Zugang für die Allgemeinheit zu offenen Bildungsressourcen wird somit möglich.
+
+
+Die Datenlaube ist ein stetig wachsender Berg an Daten von illustrierten bürgerlichen Geschichten, Texten und Ratgebern aus dem 19. Jahrhundert.  Mittels Linked Open Data lassen sich ihre Inhalte erzählen und erforschen.
+
+
+\subsection{Bürgerwissenschaften | Kulturerbe}\label{H606719}
+
+
+\begin{wrapfigure}{r}{0.5\textwidth}
+\scaledgraphics{5145f690-0f75-45bf-8ed8-6957d63c6a36.jpg}{0.5}
+\caption*{Bild "The Collective Wisdom Handbook" von Ridge, Blickhan, Ferriter unter der Lizenz \href{https://creativecommons.org/licenses/by/4.0/deed.de}{CC BY 4.0}}\label{F4035201}
+% CC BY 4.0: https://creativecommons.org/licenses/by/4.0/
+\end{wrapfigure}
+
+
+Bürgerwissenschaften. [...] Bürgerwissenschaften im Kontext Kulturerbe [...] \autocite{ridge_collective_2021} geben einen aktuellen Leitfaden zur Umsetzung digital unterstützter Partizipationsprojekte für Einrichtungen des kulturellen Erbes. (Es werden zudem Projekte und Plattformen vorgestellt, z.B. https://www.zooniverse.org/, die weltweit größte Plattform für die Beteiligung von Bürgern bei Forschungsprojekten.) (aktuell: https://inos-project.eu/2022/05/19/cultural-heritage-threats-and-the-role-of-citizen-engagement-inside-and-outside-universities/) 
 
 
 \printbibliography[title={Literaturverzeichnis}]

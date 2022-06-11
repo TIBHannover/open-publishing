@@ -20,18 +20,86 @@
     <navPoint id="t_2_0-2">
       <navLabel><text>Wikidata - Enabler von Citizen Science?</text></navLabel>
       <content src="document-2.xhtml#_2_0" />
+      <navPoint id="tH170397-2">
+        <navLabel><text>Was ist Wikidata?</text></navLabel>
+        <content src="document-2.xhtml#H170397" />
+      </navPoint>
+      <navPoint id="tH3895833-2">
+        <navLabel><text>Citizen Science | Bürgerwissenschaften</text></navLabel>
+        <content src="document-2.xhtml#H3895833" />
+      </navPoint>
+      <navPoint id="tH8329586-2">
+        <navLabel><text>WikiShootMe | Beispiel eines Citizen Science Projekts</text></navLabel>
+        <content src="document-2.xhtml#H8329586" />
+      </navPoint>
+      <navPoint id="tH316072-2">
+        <navLabel><text>Die Gartenlaube/Datenlaube | Citizen Science mit offenen Kulturdaten</text></navLabel>
+        <content src="document-2.xhtml#H316072" />
+      </navPoint>
+      <navPoint id="tH606719-2">
+        <navLabel><text>Bürgerwissenschaften | Kulturerbe</text></navLabel>
+        <content src="document-2.xhtml#H606719" />
+      </navPoint>
     </navPoint>
     <navPoint id="t_3_0-3">
       <navLabel><text>Wikidata und die OpenGLAM Community</text></navLabel>
       <content src="document-3.xhtml#_3_0" />
+      <navPoint id="tH9507990-3">
+        <navLabel><text>Was ist OpenGLAM?</text></navLabel>
+        <content src="document-3.xhtml#H9507990" />
+      </navPoint>
+      <navPoint id="tH2719449-3">
+        <navLabel><text>Der OpenGLAM Hackathon</text></navLabel>
+        <content src="document-3.xhtml#H2719449" />
+      </navPoint>
+      <navPoint id="tH3830330-3">
+        <navLabel><text>Open Knowledge Foundation</text></navLabel>
+        <content src="document-3.xhtml#H3830330" />
+      </navPoint>
+      <navPoint id="tH1258277-3">
+        <navLabel><text>WikiProject Cultural Heritage</text></navLabel>
+        <content src="document-3.xhtml#H1258277" />
+      </navPoint>
     </navPoint>
     <navPoint id="t_4_0-4">
       <navLabel><text>Wikidata - erste Schritte</text></navLabel>
       <content src="document-4.xhtml#_4_0" />
+      <navPoint id="tH2539699-4">
+        <navLabel><text>Handbuch Wikidata</text></navLabel>
+        <content src="document-4.xhtml#H2539699" />
+      </navPoint>
+      <navPoint id="tH8838465-4">
+        <navLabel><text>Wikidata:Einführung</text></navLabel>
+        <content src="document-4.xhtml#H8838465" />
+      </navPoint>
+      <navPoint id="tH784515-4">
+        <navLabel><text>Wikidata-Touren</text></navLabel>
+        <content src="document-4.xhtml#H784515" />
+      </navPoint>
+      <navPoint id="tH4699156-4">
+        <navLabel><text>Screencast zur Datenanlegung in Wikidata</text></navLabel>
+        <content src="document-4.xhtml#H4699156" />
+      </navPoint>
     </navPoint>
     <navPoint id="t_5_0-5">
       <navLabel><text>Wikidata - weitere Werkzeuge</text></navLabel>
       <content src="document-5.xhtml#_5_0" />
+      <navPoint id="tH1052681-5">
+        <navLabel><text>Open School Maps</text></navLabel>
+        <content src="document-5.xhtml#H1052681" />
+      </navPoint>
+      <navPoint id="tH8107403-5">
+        <navLabel><text>Tutorial zu OpenRefine</text></navLabel>
+        <content src="document-5.xhtml#H8107403" />
+      </navPoint>
+      <navPoint id="tH4162303-5">
+        <navLabel><text>Wikidata SPARQL</text></navLabel>
+        <content src="document-5.xhtml#H4162303" />
+      </navPoint>
+      <navPoint id="tH4372507-5">
+        <navLabel><text>SPARQL in Wikibooks</text></navLabel>
+        <content src="document-5.xhtml#H4372507" />
+      </navPoint>
     </navPoint>
     <navPoint id="t2">
       <navLabel><text>Copyright</text></navLabel>
